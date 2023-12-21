@@ -60,5 +60,5 @@ R_1(\Omega) =
 0 & 0 & 1 \\    
 \end{bmatrix}
 ```
-Now, the (u-v-w) coordinate is defined where the w-axis(\boldmath$e_w$) points towards the source of interest(\boldmath$s$) or phase tracking center (defined in ECI  frame), u-axis(\boldmath$e_u$) points towards the east and the v-axis (\boldmath$e_v$)points towards the north celestial pole (\boldmath $n$)
+Now, the (u-v-w) coordinate is defined where the w-axis(\boldmath$e_w$) points towards the source of interest(\boldmath$s$) or phase tracking center (defined in ECI  frame), u-axis($$\boldmath$e_u$ $$) points towards the east and the v-axis (\boldmath$e_v$)points towards the north celestial pole (\boldmath $n$)
 ```math
