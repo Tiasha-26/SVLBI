@@ -72,3 +72,11 @@ S = \begin{bmatrix}
 ```
 In Celestial frame: $\alpha$ = right ascension , $\delta$ = declination of source, with $\hat{S}={\hat{e}_w}$, $\hat{n}=(0,0,1)$, ${\hat{e}_u}=\hat{n}\times {\hat{e}_w}$, ${\hat{e}_v}={\hat{e}_w}\times{\hat{e}_u}$, and $\vec{b}$ is the baseline vector. At every instant of time, it changes, thus the projections along (u-v-w) axes have been evaluated at every instant of time.
  ![uvw](https://github.com/Tiasha-26/SVLBI/assets/139108601/79b95072-e630-4d80-b1ea-42f5a8eafe4b)
+
+The workmap :
+![Screenshot 2023-12-21 113548](https://github.com/Tiasha-26/SVLBI/assets/139108601/2a354637-67e4-4403-8be1-f79ad2eb86d8)
+
+
+Using the u, v data, and model source structure in Common Astronomy Software Application(**CASA**), Point spread function(p.s.f.), dirty images are produced, and the cleaned images are deconvolved using the CLEAN algorithm with 10k iterations.
+The code has been verified for both elliptical and circular orbits. 
+The results and brief analysis has been shown in the presentation provided here.'
