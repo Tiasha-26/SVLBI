@@ -12,6 +12,25 @@ is derived from the mean anomaly and eccentric anomaly.
 
 ```math
 M(t) = M(t_o) + n (t-t_o)
-
+```
+```math
 M(t) = E(t) - e sin[E(t)]
 ```
+```math
+tan(\frac{t_{anm}}{2}) = \sqrt{\frac{1+e}{1-e}} tan(\frac{E}{2})
+```
+```math
+n = \sqrt{\frac{G M}{a^3}}
+```
+where, M(t) = mean anomaly
+E(t) = eccentric anomaly
+$$ t_{anm} $$ = true anomaly
+e = eccentricity of the orbit
+a = semi-major axis of the orbit
+M = mass of earth
+G = Gravitational constant and
+n = mean motion of the satellite
+```math
+```math
+```math
+```math
