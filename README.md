@@ -31,7 +31,8 @@ M = mass of earth,
 G = Gravitational constant, and
 n = mean motion of the satellite.
 
-
+To determine true anomalies at different points in time, the Newton-Raphson method is applied at each instance of time.
+Using the above parameters and $t_{\text{anm}}(t)$ one can determine the coordinates in a Perifocal coordinate system and then is converted to celestial frame.
 
 
 ```math
