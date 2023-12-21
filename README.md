@@ -10,6 +10,8 @@ semi-major axis, argument of periapsis, right ascension of ascending node, and t
 anomaly). In addition, satellite positions are traced with time using changes in true anomaly, which
 is derived from the mean anomaly and eccentric anomaly.
 
+![peri](https://github.com/Tiasha-26/SVLBI/assets/139108601/c55c541c-5ef6-41cf-89a2-b30a61d6dd92)
+
 ```math
 M(t) = M(t_o) + n (t-t_o)
 ```
