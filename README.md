@@ -68,4 +68,4 @@ S = \begin{bmatrix}
     sin\delta \\
 \end{bmatrix}
 ```
-In Celestial frame: $\alpha$ = right ascension , $\delta$ = declination of source, with $\hat{S}={\hat{e}_w}$, $\hat{n}=(0,0,1)$, ${\hat{e}_u}=\hat{n}\times {\hat{e}_w}$, ${\hat{e}_v}={\hat{e}_w}\times{\hat{e}_u}$, and $\Vec{b}$ is the baseline vector \cite{b2}. At every instant of time, it changes, thus the projections along (u-v-w) axes have been evaluated at every instant of time.
+In Celestial frame: $\alpha$ = right ascension , $\delta$ = declination of source, with $\hat{S}={\hat{e}_w}$, $\hat{n}=(0,0,1)$, ${\hat{e}_u}=\hat{n}\times {\hat{e}_w}$, ${\hat{e}_v}={\hat{e}_w}\times{\hat{e}_u}$, and $\vec{b}$ is the baseline vector. At every instant of time, it changes, thus the projections along (u-v-w) axes have been evaluated at every instant of time.
