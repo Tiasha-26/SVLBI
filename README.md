@@ -24,7 +24,7 @@ n = \sqrt{\frac{G M}{a^3}}
 ```
 where, M(t) = mean anomaly,
 E(t) = eccentric anomaly,
-t_{anm} = true anomaly,
+$t_{\text{anm}}(t)$ = true anomaly,
 e = eccentricity of the orbit,
 a = semi-major axis of the orbit,
 M = mass of earth,
@@ -34,7 +34,30 @@ n = mean motion of the satellite.
 To determine true anomalies at different points in time, the Newton-Raphson method is applied at each instance of time.
 Using the above parameters and $t_{\text{anm}}(t)$ one can determine the coordinates in a Perifocal coordinate system and then is converted to celestial frame.
 
-
+**Conversion of Perifocal to Celestial coordinates**
+Let, the position vector in celestial coordinates and perifocal coordinates be denoted by ⃗rCand ⃗rP QW
+respectively. Now,
 ```math
+\vec{r}_{C} = R_1(\Omega)R_2(i)R_3(\omega) \vec{r}_{PQW}
+```
 ```math
+R_1(\Omega) =
+\begin{bmatrix}
+\cos \Omega & -\sin \Omega & 0 \\
+\sin \Omega & \cos \Omega & 0 \\
+0 &$0$& 1 \\    
+\end{bmatrix}
+;R_2(i) = 
+\begin{bmatrix}
+1 &$0$& 0 \\
+0 & \cos $i$& -\sin i\\
+0 & \sin $i$& \cos i \\ 
+\end{bmatrix}
+;R_3(\omega) = 
+\begin{bmatrix}
+\cos \omega & -\sin \omega & 0 \\
+\sin \omega & \cos \omega & 0 \\
+0 &$0$& 1 \\    
+\end{bmatrix}
+```
 ```math
