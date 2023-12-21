@@ -7,6 +7,7 @@ A brief overview of my Master's project ( work in progress) :  **Concept Study o
 **Antariksh Interferometer Simulator (AI-Sim)** 
 
 **Methodology:**
+
 To find u-v coverage of “N” number of satellites in space orbiting Earth, the position of each at
 a particular instant of time is determined from the orbital parameters (like eccentricity, inclination,
 semi-major axis, argument of periapsis, right ascension of ascending node, and the initial true
