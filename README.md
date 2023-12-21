@@ -51,7 +51,7 @@ R_1(\Omega) =
 \begin{bmatrix}
 1 & 0 & 0 \\
 0 & \cos i & -\sin i\\
-0 & \sin  i & \cos i \\ 
+0 & \sin  i & \cos i \\
 \end{bmatrix}
 ;R_3(\omega) = 
 \begin{bmatrix}
@@ -69,3 +69,4 @@ S = \begin{bmatrix}
 \end{bmatrix}
 ```
 In Celestial frame: $\alpha$ = right ascension , $\delta$ = declination of source, with $\hat{S}={\hat{e}_w}$, $\hat{n}=(0,0,1)$, ${\hat{e}_u}=\hat{n}\times {\hat{e}_w}$, ${\hat{e}_v}={\hat{e}_w}\times{\hat{e}_u}$, and $\vec{b}$ is the baseline vector. At every instant of time, it changes, thus the projections along (u-v-w) axes have been evaluated at every instant of time.
+ ![uvw](https://github.com/Tiasha-26/SVLBI/assets/139108601/79b95072-e630-4d80-b1ea-42f5a8eafe4b)
