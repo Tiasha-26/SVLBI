@@ -84,3 +84,4 @@ The workmap :
 Using the u, v data, and model source structure in Common Astronomy Software Application(**CASA**), Point spread function(p.s.f.), dirty images are produced, and the cleaned images are deconvolved using the CLEAN algorithm with 10,000 iterations.
 The code has been verified for both elliptical and circular orbits. 
 **The results and brief analysis has been shown in the presentation provided here** [Ppt](https://docs.google.com/presentation/d/1up1QstDCYu-k4yd-pZmvT4-VFQ5cO6AC/edit?usp=sharing&ouid=109842290457425134267&rtpof=true&sd=true)
+ The code will be shared after the completion of the project.
