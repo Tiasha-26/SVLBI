@@ -35,7 +35,7 @@ To determine true anomalies at different points in time, the Newton-Raphson meth
 Using the above parameters and $t_{\text{anm}}(t)$ one can determine the coordinates in a Perifocal coordinate system and then is converted to celestial frame.
 
 **Conversion of Perifocal to Celestial coordinates**
-Let, the position vector in celestial coordinates and perifocal coordinates be denoted by $\vec{r}_{C}$and $ \vec{r}_{PQW} $
+Let, the position vector in celestial coordinates and perifocal coordinates be denoted by ${\vec{r}}_{C}$ and $ {\vec{r}}_{PQW} $
 respectively. Now,
 ```math
 \vec{r}_{C} = R_1(\Omega)R_2(i)R_3(\omega) \vec{r}_{PQW}
