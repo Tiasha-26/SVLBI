@@ -12,4 +12,5 @@ is derived from the mean anomaly and eccentric anomaly.
 
 ```math
 M(t) = M(t_o) + n (t-t_o)
+M(t) = E(t) - e sin[E(t)]
 ```
