@@ -10,6 +10,6 @@ semi-major axis, argument of periapsis, right ascension of ascending node, and t
 anomaly). In addition, satellite positions are traced with time using changes in true anomaly, which
 is derived from the mean anomaly and eccentric anomaly.
 
-M(t) = M(t_o) + n (t-t_o)
+$ M(t) = M(t_o) + n (t-t_o) $
 M(t) = E(t) - e sin[E(t)]
 tan(\frac{t_{anm}}{2}) = \sqrt{\frac{1+e}{1-e}} tan(\frac{E}{2})
