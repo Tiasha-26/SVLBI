@@ -24,13 +24,16 @@ n = \sqrt{\frac{G M}{a^3}}
 ```
 where, M(t) = mean anomaly
 E(t) = eccentric anomaly
-$$ t_{anm} $$ = true anomaly
+ ```math t_{anm} ``` = true anomaly
 e = eccentricity of the orbit
 a = semi-major axis of the orbit
 M = mass of earth
 G = Gravitational constant and
 n = mean motion of the satellite
-```math
+
+
+
+
 ```math
 ```math
 ```math
