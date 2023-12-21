@@ -74,7 +74,7 @@ In Celestial frame: $\alpha$ = right ascension , $\delta$ = declination of sourc
  ![uvw](https://github.com/Tiasha-26/SVLBI/assets/139108601/79b95072-e630-4d80-b1ea-42f5a8eafe4b)
 
 The workmap :
-![Screenshot 2023-12-21 113548](https://github.com/Tiasha-26/SVLBI/assets/139108601/2a354637-67e4-4403-8be1-f79ad2eb86d8)
+![Screenshot 2023-12-21 113548](https://github.com/Tiasha-26/SVLBI/assets/139108601/2a354637-67e4-4403-8be1-f79ad2eb86d8)[width = 20]
 
 
 Using the u, v data, and model source structure in Common Astronomy Software Application(**CASA**), Point spread function(p.s.f.), dirty images are produced, and the cleaned images are deconvolved using the CLEAN algorithm with 10k iterations.
