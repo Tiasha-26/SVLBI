@@ -4,6 +4,8 @@ SVLBI = Space Very Long Baseline Interferometry
 
 A brief overview of my Master's project ( work in progress) :  **Concept Study of Radio Interferometry in Space using small Satellites**
 
+**Antariksh Interferometer Simulator (AI-Sim)** 
+**Methodology:**
 To find u-v coverage of “N” number of satellites in space orbiting Earth, the position of each at
 a particular instant of time is determined from the orbital parameters (like eccentricity, inclination,
 semi-major axis, argument of periapsis, right ascension of ascending node, and the initial true
@@ -77,6 +79,6 @@ The workmap :
 ![Screenshot 2023-12-21 113548,width = 20](https://github.com/Tiasha-26/SVLBI/assets/139108601/2a354637-67e4-4403-8be1-f79ad2eb86d8)
 
 
-Using the u, v data, and model source structure in Common Astronomy Software Application(**CASA**), Point spread function(p.s.f.), dirty images are produced, and the cleaned images are deconvolved using the CLEAN algorithm with 10k iterations.
+Using the u, v data, and model source structure in Common Astronomy Software Application(**CASA**), Point spread function(p.s.f.), dirty images are produced, and the cleaned images are deconvolved using the CLEAN algorithm with 10,000 iterations.
 The code has been verified for both elliptical and circular orbits. 
-The results and brief analysis has been shown in the presentation provided here [Ppt](https://docs.google.com/presentation/d/1up1QstDCYu-k4yd-pZmvT4-VFQ5cO6AC/edit?usp=sharing&ouid=109842290457425134267&rtpof=true&sd=true)
+**The results and brief analysis has been shown in the presentation provided here** [Ppt](https://docs.google.com/presentation/d/1up1QstDCYu-k4yd-pZmvT4-VFQ5cO6AC/edit?usp=sharing&ouid=109842290457425134267&rtpof=true&sd=true)
