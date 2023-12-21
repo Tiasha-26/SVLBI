@@ -1,6 +1,6 @@
 # SVLBI
 
-SVLBI = Space Very Long Baseline Interferometry
+**SVLBI = Space Very Long Baseline Interferometry**
 
 A brief overview of my Master's project ( work in progress) :  **Concept Study of Radio Interferometry in Space using small Satellites**
 
