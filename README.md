@@ -5,6 +5,7 @@ SVLBI = Space Very Long Baseline Interferometry
 A brief overview of my Master's project ( work in progress) :  **Concept Study of Radio Interferometry in Space using small Satellites**
 
 **Antariksh Interferometer Simulator (AI-Sim)** 
+
 **Methodology:**
 To find u-v coverage of “N” number of satellites in space orbiting Earth, the position of each at
 a particular instant of time is determined from the orbital parameters (like eccentricity, inclination,
